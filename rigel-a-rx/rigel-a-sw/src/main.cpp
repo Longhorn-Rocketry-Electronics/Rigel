@@ -60,7 +60,18 @@ void setup() {
 
   // initialize STM32WL with default settings, except frequency
   Serial2.print(F("[STM32WL] Initializing ... "));
-  int state = radio.begin(868.0);
+int state = radio.begin(
+    915, // center frequency
+    10.4, // bandwidth
+    12, // spreading factor
+    6, // CR?
+    18, // syncword
+    10, // power dbm
+    8,
+    1.6,
+    false
+  );
+
   if (state == RADIOLIB_ERR_NONE) {
     Serial2.println(F("success!"));
   } else {
@@ -69,8 +80,12 @@ void setup() {
     while (true);
   }
 
-  // set appropriate TCXO voltage for Nucleo WL55JC1
+  // set appropriate TCXO voltage for Rigel
   state = radio.setTCXO(3.0);
+  radio.forceLDRO(true);
+  radio.setRxBoostedGainMode(true);
+  radio.implicitHeader(8);
+
   if (state == RADIOLIB_ERR_NONE) {
     Serial2.println(F("success!"));
   } else {
