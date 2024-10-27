@@ -7171,7 +7171,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "240k"
 			(at 83.82 134.62 90)
 			(effects
 				(font
