@@ -4918,6 +4918,10 @@
 		(uuid "3ed5cb2b-fa41-4731-86e9-2bb2c6dca066")
 	)
 	(no_connect
+		(at 90.17 140.97)
+		(uuid "43d2dc87-b8bf-4829-b405-d735bf765d9c")
+	)
+	(no_connect
 		(at 181.61 78.74)
 		(uuid "61ccbd41-be9e-4d9e-8f7d-180b1c183290")
 	)
@@ -5563,16 +5567,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 140.97) (xy 90.17 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc073d3e-d406-443b-aaff-035aa701dc00")
-	)
-	(wire
-		(pts
 			(xy 162.56 34.29) (xy 163.83 34.29)
 		)
 		(stroke
@@ -6004,6 +5998,17 @@
 		)
 		(uuid "c98cf9ec-f5f5-44f0-81e1-4c7fd04a4d9e")
 	)
+	(label "3.3V"
+		(at 62.23 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d023b885-2b9b-4242-a178-90d7b783bfdb")
+	)
 	(label "JTCK{slash}SWCLK"
 		(at 181.61 76.2 0)
 		(fields_autoplaced yes)
@@ -6047,6 +6052,17 @@
 			(justify left bottom)
 		)
 		(uuid "ecd47a2c-6716-4f6b-9f52-1e7710f1c0de")
+	)
+	(label "3V - 17V"
+		(at 166.37 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed6f133a-8c5d-4db9-8ba2-f633097ad1de")
 	)
 	(global_label "USBD-"
 		(shape input)
@@ -7239,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27.4k"
 			(at 157.48 134.62 90)
 			(effects
 				(font
