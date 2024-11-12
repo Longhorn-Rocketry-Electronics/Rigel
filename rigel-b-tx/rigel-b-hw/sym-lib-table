@@ -3,4 +3,6 @@
   (lib (name "default_lib")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/symbol/default_lib.kicad_sym")(options "")(descr ""))
   (lib (name "BALFHB-WL-02D3")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/symbol/BALFHB-WL-02D3.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-27_20-25-40")(type "KiCad")(uri "${KIPRJMOD}/TPS629206DRLR/KiCADv6/2024-10-27_20-25-40.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-11-12_20-08-53")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/symbol/2024-11-12_20-08-53.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-11-12_20-50-55")(type "KiCad")(uri "${KIPRJMOD}/JLC2KiCad_lib/symbol/2024-11-12_20-50-55.kicad_sym")(options "")(descr ""))
 )
