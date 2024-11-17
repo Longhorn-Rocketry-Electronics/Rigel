@@ -10734,7 +10734,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "47nH"
 			(at 93.98 63.5 90)
 			(effects
 				(font
@@ -10742,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 93.98 59.69 0)
 			(effects
 				(font
@@ -11404,7 +11404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.3 95.5548 0)
 			(effects
 				(font
@@ -11941,7 +11941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TSNP-6-10_INF"
+		(property "Footprint" "jlc:PG-TSNP-6-10_INF"
 			(at 73.66 82.55 0)
 			(effects
 				(font
@@ -12655,7 +12655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_S2B-XH-A_JST"
+		(property "Footprint" "jlc:CONN_S2B-XH-A_JST"
 			(at 115.57 175.26 0)
 			(effects
 				(font
@@ -14132,7 +14132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON4_2X2_TU_BCS_SAI"
+		(property "Footprint" "jlc:CON4_2X2_TU_BCS_SAI"
 			(at 54.61 172.72 0)
 			(effects
 				(font
@@ -14410,7 +14410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.3152 132.08 0)
 			(effects
 				(font
@@ -14774,7 +14774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.7248 129.54 0)
 			(effects
 				(font
@@ -17278,7 +17278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 124.46 57.15 0)
 			(effects
 				(font
@@ -17482,7 +17482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.6552 127 0)
 			(effects
 				(font
