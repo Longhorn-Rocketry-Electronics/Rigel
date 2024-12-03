@@ -1376,207 +1376,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -6774,8 +6573,16 @@
 		(uuid "ae38276e-385e-42e5-a0c9-82715500ac7b")
 	)
 	(no_connect
+		(at 171.45 87.63)
+		(uuid "b5e2295e-9b9c-4d4d-9e28-e703b4ef123f")
+	)
+	(no_connect
 		(at 128.27 100.33)
 		(uuid "b6cbaaa5-b38d-43c7-abf7-4c9b0129f9d2")
+	)
+	(no_connect
+		(at 171.45 85.09)
+		(uuid "c1795b6e-ecfd-4470-b796-636eb02835c6")
 	)
 	(no_connect
 		(at 171.45 69.85)
@@ -6823,7 +6630,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 107.95) (xy 185.42 107.95)
+			(xy 171.45 107.95) (xy 278.13 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6860,26 +6667,6 @@
 			(type default)
 		)
 		(uuid "04801678-ff0b-46a9-abd7-10358b1913f2")
-	)
-	(wire
-		(pts
-			(xy 190.5 110.49) (xy 274.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a888384-6e65-4b3d-b1fe-9a8c5cbedb09")
-	)
-	(wire
-		(pts
-			(xy 190.5 107.95) (xy 278.13 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b93fa25-ec6f-45a6-9df5-02d2c47693e7")
 	)
 	(wire
 		(pts
@@ -7153,16 +6940,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 193.04 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "413e7b3b-0bef-40ec-b5e7-91afbca62a96")
-	)
-	(wire
-		(pts
 			(xy 254 139.7) (xy 278.13 139.7)
 		)
 		(stroke
@@ -7223,7 +7000,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 185.42 110.49)
+			(xy 171.45 110.49) (xy 274.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7420,16 +7197,6 @@
 			(type default)
 		)
 		(uuid "80205461-6d80-4879-8c22-29d8b7ac0f24")
-	)
-	(wire
-		(pts
-			(xy 171.45 87.63) (xy 193.04 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8125c2e7-a4dd-45af-a78b-672023facdab")
 	)
 	(wire
 		(pts
@@ -8087,17 +7854,6 @@
 		)
 		(uuid "90962c26-b695-4c3a-a418-3ab59df7bb6b")
 	)
-	(label "JTMS{slash}SWDIO"
-		(at 171.45 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "913876f6-292a-485f-aa5a-b1650ad65a2b")
-	)
 	(label "RESET"
 		(at 127 52.07 180)
 		(fields_autoplaced yes)
@@ -8152,17 +7908,6 @@
 			(justify right bottom)
 		)
 		(uuid "c98cf9ec-f5f5-44f0-81e1-4c7fd04a4d9e")
-	)
-	(label "JTCK{slash}SWCLK"
-		(at 171.45 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3e6eb28-152d-48d1-94ec-6b45ad436a9e")
 	)
 	(label "PB0-VDD_TCXO"
 		(at 46.99 109.22 0)
@@ -8992,73 +8737,6 @@
 			(project ""
 				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 193.04 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12888995-15fb-476b-8754-47c7f9a214b1")
-		(property "Reference" "#PWR037"
-			(at 186.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b427c26c-17d2-40d6-9071-d315ea33b596")
-		)
-		(instances
-			(project "rigel-a-hw"
-				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11079,79 +10757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 190.5 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dd9d387-7d05-471d-ac3b-bc53f1f871ae")
-		(property "Reference" "J3"
-			(at 191.77 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 191.77 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2414970e-3143-4b85-9c14-06b90275e809")
-		)
-		(pin "2"
-			(uuid "ae34bbea-ac41-46c1-af39-39f599adb3e9")
-		)
-		(pin "3"
-			(uuid "1da7ebd9-6d41-4b4d-af1b-b24606b86f79")
-		)
-		(instances
-			(project "rigel-a-hw"
-				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 135.89 27.94 90)
 		(unit 1)
@@ -11279,79 +10884,6 @@
 			(project "rigel-b-hw"
 				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 198.12 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5285707d-9987-4596-9460-2cd191d6880e")
-		(property "Reference" "J1"
-			(at 199.39 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 199.39 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b16192a3-e0f8-4121-b0c8-7119b4e1f4a8")
-		)
-		(pin "2"
-			(uuid "932fb28c-a30d-45b7-b833-03c05f1fc333")
-		)
-		(pin "3"
-			(uuid "a9fc54c2-51e6-401d-8657-0efd6bd65f98")
-		)
-		(instances
-			(project "rigel-a-hw"
-				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -17161,73 +16693,6 @@
 			(project "rigel-a-hw"
 				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f13b1ddf-e2b7-42c7-b3e3-18d66c5d49b3")
-		(property "Reference" "#PWR042"
-			(at 179.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10889ea0-edb3-4c9f-8e64-0fd6565a69a8")
-		)
-		(instances
-			(project "rigel-a-hw"
-				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
