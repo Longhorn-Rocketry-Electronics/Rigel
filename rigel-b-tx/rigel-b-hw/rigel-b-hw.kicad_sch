@@ -6571,6 +6571,12 @@
 		(uuid "6bb5aff7-3841-4a5a-881a-23e0d72f57c3")
 	)
 	(junction
+		(at 115.57 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72c51ef6-5660-41ae-99ee-714d42182a96")
+	)
+	(junction
 		(at 186.69 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6805,6 +6811,16 @@
 	(no_connect
 		(at 128.27 85.09)
 		(uuid "ece33aaa-8cd7-4fbc-acbb-f8fad4448dda")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014117d7-d5db-431b-a8bc-e86f20de47a2")
 	)
 	(wire
 		(pts
@@ -7768,7 +7784,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 128.27 95.25)
+			(xy 101.6 95.25) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13436,6 +13452,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_7")
+		(lib_id "power:GND")
+		(at 115.57 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "924222db-b376-4ded-addb-53a4276add23")
+		(property "Reference" "#PWR085"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a28a809-4861-4119-a37b-226f5b20ade6")
+		)
+		(instances
+			(project "rigel-b-hw"
+				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 163.83 270)
 		(unit 1)
@@ -17185,6 +17269,75 @@
 			(project "rigel-b-hw"
 				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2be7be2-eb50-4f67-b97c-c60160a8c077")
+		(property "Reference" "C31"
+			(at 110.49 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 113.03 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b44710fe-a9fb-4a7b-8040-81789f3c54d4")
+		)
+		(pin "2"
+			(uuid "b04298ba-9efa-4a4c-94b4-b3880e8e5802")
+		)
+		(instances
+			(project "rigel-b-hw"
+				(path "/5b772f1b-b884-4184-9180-5f1d0867ded9"
+					(reference "C31")
 					(unit 1)
 				)
 			)
