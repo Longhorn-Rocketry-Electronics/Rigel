@@ -8715,7 +8715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TPS629206DRLR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps629206.pdf?ts=1651691667005&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS629206%253FkeyMatch%253DTPS629206%2526tisearch%253Dsearch-everything%2526usecase%253DGPN"
 			(at 39.37 160.02 0)
 			(effects
 				(font
@@ -9285,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SAM-M10Q-00B"
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/SAM-M10Q_DataSheet_UBX-22013293.pdf"
 			(at 193.04 124.46 0)
 			(effects
 				(font
@@ -10239,7 +10239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "4259-63"
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
 			(at 33.02 95.25 0)
 			(effects
 				(font
@@ -12337,7 +12337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "S2B-XH-A"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 113.03 190.5 0)
 			(effects
 				(font
@@ -13883,7 +13883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BCS-102-L-D-TE"
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/bcs-1xx-xxx-x-xx-xxx-mkt.pdf"
 			(at 57.15 180.34 0)
 			(effects
 				(font
